@@ -1,1 +1,1 @@
-Repository for test.
+Repository for test. This is lab session only.
