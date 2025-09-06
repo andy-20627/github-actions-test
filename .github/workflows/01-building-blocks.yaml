@@ -1,3 +1,5 @@
+name: Bulding blocks
+
 on: push
 
 jobs: 
