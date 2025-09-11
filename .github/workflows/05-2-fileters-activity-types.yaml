@@ -1,0 +1,14 @@
+name: 05 - 1 - Event filters and Acivity Types
+
+on:
+    pull_request:
+        types:
+            - closed
+        branches:
+            - main
+
+jobs:
+    echo:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Runing whenever a PR is closed"            
